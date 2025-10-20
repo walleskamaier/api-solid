@@ -14,6 +14,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
+    "@eslint/core": "^0.16.0",
     "@eslint/js": "^9.37.0",
     "@types/bcryptjs": "^3.0.0",
     "@types/node": "^24.5.2",
