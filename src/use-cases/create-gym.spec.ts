@@ -11,7 +11,7 @@ describe("Create Gym Use Case", () => {
     sut = new CreateGymUseCase(gymsRepository)
   })
 
-  it("should to create gym", async () => {
+  it("should be able to create gym", async () => {
     const { gym } = await sut.execute({
       title: "JavaScript Gym",
       description: null,
